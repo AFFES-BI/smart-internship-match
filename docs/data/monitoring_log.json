@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-24T15:32:02Z",
+      "status": "WARN",
+      "checks": [
+        {
+          "name": "donnees_a_jour",
+          "status": "OK",
+          "detail": "donnees vieilles de 0 jour(s) (seuil : 7)"
+        },
+        {
+          "name": "offres_bien_classees",
+          "status": "OK",
+          "detail": "4 offre(s) avec un score >= 0.3 sur 50"
+        },
+        {
+          "name": "offres_exploitables",
+          "status": "WARN",
+          "detail": "20% des offres ont une information exploitable (seuil : 30%) -- un score 0 peut vouloir dire 'pas d'information'"
+        },
+        {
+          "name": "candidatures_sans_reponse",
+          "status": "INFO",
+          "detail": "aucune candidature enregistree dans applications.json"
+        }
+      ]
+    }
+  ]
+}
