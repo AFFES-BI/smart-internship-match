@@ -1,0 +1,4 @@
+{
+  "_help": "Tableau de suivi des candidatures, saisi a la main (jamais genere par une IA). Une entree par candidature : {\"offer_id\": \"adz_...\", \"sent_on\": \"2026-11-30\", \"response\": \"none\" | \"refusal\" | \"interview\" | \"offer\", \"response_on\": \"2026-12-05\"}",
+  "applications": []
+}

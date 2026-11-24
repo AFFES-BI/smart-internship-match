@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Internship Match — tableau de bord</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1d2430; --muted:#5b6472; --line:#e1e5ea;
+          --accent:#0d7c9e; --warn:#b4540a; --good:#1b7f4b; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#12161c; --card:#1b212a; --ink:#e8ecf1; --muted:#9aa5b4; --line:#2b3340;
+            --accent:#4cb5d6; --warn:#e8934a; --good:#52c48a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:system-ui,sans-serif; line-height:1.45; }
+  main { max-width:1000px; margin:0 auto; padding:1.5rem 16px 3rem; }
+  h1 { margin:0 0 .25rem; font-size:1.6rem; }
+  h2 { margin:2rem 0 .25rem; font-size:1.2rem; }
+  .sub { color:var(--muted); margin:0 0 1rem; }
+  .why { color:var(--muted); font-size:.88rem; margin:.25rem 0 .75rem; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:1rem; }
+  .kpi .v { font-size:1.9rem; font-weight:700; color:var(--accent); }
+  .kpi .l { font-size:.88rem; color:var(--muted); }
+  .charts { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:12px; }
+  .chartbox { position:relative; height:300px; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { text-align:left; padding:.5rem .4rem; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; }
+  .score { font-variant-numeric:tabular-nums; font-weight:600; }
+  .note { border-left:4px solid var(--warn); padding:.5rem .75rem; background:var(--card); font-size:.9rem; margin:1rem 0; }
+  a { color:var(--accent); }
+  footer { color:var(--muted); font-size:.85rem; margin-top:2rem; }
+  .empty { color:var(--muted); font-style:italic; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Smart Internship Match</h1>
+  <p class="sub">Aide à la décision pour ma recherche de stage : quelles offres viser en priorité, et quelles compétences travailler.
+  Public visé : moi (décider où candidater et quoi apprendre). <span id="updated"></span></p>
+
+  <div class="note" id="caveat"></div>
+
+  <h2>1. Santé du pipeline</h2>
+  <p class="why">Pour savoir si je peux faire confiance au classement avant de décider. Ces chiffres montrent ce que le pipeline a réellement vu.</p>
+  <div class="grid" id="health"></div>
+
+  <h2>2. Efficacité de la recherche</h2>
+  <p class="why">Pour décider quelles offres regarder en premier et quelle compétence combler.</p>
+  <div class="charts">
+    <div class="card">
+      <strong>Répartition des scores de matching</strong>
+      <p class="why">Histogramme : montre la forme de la distribution (combien d'offres sans match contre combien de bons matchs), ce qu'un simple classement ne montre pas.</p>
+      <div class="chartbox"><canvas id="scoreChart" aria-label="Répartition des scores"></canvas></div>
+    </div>
+    <div class="card">
+      <strong>Compétences de mon profil les plus demandées</strong>
+      <p class="why">Barres horizontales (noms longs) : indique ce qui m'est le plus utile dans les offres trouvées.</p>
+      <div class="chartbox"><canvas id="matchedChart" aria-label="Compétences trouvées"></canvas></div>
+    </div>
+    <div class="card">
+      <strong>Compétences demandées que je n'ai pas encore</strong>
+      <p class="why">Barres horizontales : liste de pistes d'apprentissage. Peu de répétitions pour l'instant, donc à lire comme une piste et pas comme un classement.</p>
+      <div class="chartbox"><canvas id="gapsChart" aria-label="Compétences manquantes"></canvas></div>
+    </div>
+  </div>
+
+  <h2>Offres à regarder en priorité</h2>
+  <p class="why">Tableau : pour décider quelles offres ouvrir. Un tableau trié convient mieux qu'un graphique quand on veut lire des titres et cliquer.</p>
+  <div class="card"><div id="topOffers"></div></div>
+
+  <h2>3. Résultats de mes candidatures</h2>
+  <p class="why">Pour savoir si la recherche mène quelque part. Ces données sont saisies à la main dans <code>docs/data/applications.json</code> (un tableau que je contrôle, jamais rédigé par une IA).</p>
+  <div class="grid" id="outcome"></div>
+
+  <footer>Offres : <a href="https://www.adzuna.fr">Jobs by Adzuna</a> (The Adzuna API).</footer>
+</main>
+
+<script>
+function el(tag, props, children) {
+  const e = document.createElement(tag);
+  Object.assign(e, props || {});
+  (children || []).forEach(c => e.append(c));
+  return e;
+}
+function kpi(value, label) {
+  return el('div', {className:'card kpi'}, [el('div', {className:'v', textContent:value}), el('div', {className:'l', textContent:label})]);
+}
+function shortName(s) { return s.replace(/\s*\(.*?\)/g, '').trim(); }
+function pct(n, d) { return d ? Math.round(100 * n / d) + ' %' : '—'; }
+function barChart(id, labels, values, color) {
+  if (!labels.length) { document.getElementById(id).parentElement.append(el('p', {className:'empty', textContent:'Pas assez de données.'})); return; }
+  new Chart(document.getElementById(id), {
+    type:'bar',
+    data:{labels, datasets:[{data:values, backgroundColor:color}]},
+    options:{indexAxis:id === 'scoreChart' ? 'x' : 'y', maintainAspectRatio:false,
+             plugins:{legend:{display:false}},
+             scales:{[id === 'scoreChart' ? 'y' : 'x']:{beginAtZero:true, ticks:{precision:0}}}}
+  });
+}
+
+Promise.all([
+  fetch('data/matches.json').then(r => r.json()),
+  fetch('data/applications.json').then(r => r.json()).catch(() => ({applications: []}))
+]).then(([data, tracker]) => {
+  const offers = data.offers || [];
+  const n = offers.length;
+  document.getElementById('updated').textContent = 'Données du ' + (data.generated_at || '?').slice(0, 10) + '.';
+
+  // 1. Santé du pipeline
+  const withSkills = offers.filter(o => (o.required_skills || []).length > 0).length;
+  const withMatch = offers.filter(o => (o.matched || []).length > 0).length;
+  const textOnly = offers.filter(o => (o.text_only || []).length > 0).length;
+  const withSalary = offers.filter(o => o.salary_min || o.compensation_mentioned).length;
+  const health = document.getElementById('health');
+  health.append(
+    kpi(n, 'offres analysées (1 source : Adzuna)'),
+    kpi(pct(withSkills, n), 'offres où l\'IA a extrait au moins une compétence'),
+    kpi(pct(withMatch, n), 'offres avec au moins un match avec mon profil'),
+    kpi(textOnly, 'offres retrouvées grâce au 2e signal (texte), pas par l\'IA'),
+    kpi(pct(withSalary, n), 'offres avec une rémunération connue')
+  );
+  document.getElementById('caveat').textContent =
+    'Limite à garder en tête : les descriptions Adzuna sont tronquées à 500 caractères, donc ' + (n - withSkills) +
+    ' offres sur ' + n + ' n\'ont aucune compétence extraite. Un score de 0 veut dire « pas d\'information », pas « offre sans rapport ».';
+
+  // 2. Efficacité
+  const bins = ['0 (aucune info/match)', '0,01–0,2', '0,21–0,4', '0,41–0,6', '0,61–1'];
+  const counts = [0,0,0,0,0];
+  offers.forEach(o => {
+    const s = o.score || 0;
+    counts[s === 0 ? 0 : s <= 0.2 ? 1 : s <= 0.4 ? 2 : s <= 0.6 ? 3 : 4]++;
+  });
+  barChart('scoreChart', bins, counts, getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#0d7c9e');
+  const tm = data.top_matched_skills || [];
+  barChart('matchedChart', tm.map(s => shortName(s.skill)), tm.map(s => s.count), '#1b7f4b');
+  const tg = data.top_skill_gaps || [];
+  barChart('gapsChart', tg.map(s => s.skill), tg.map(s => s.count), '#b4540a');
+
+  // Offres prioritaires
+  const top = offers.filter(o => (o.score || 0) > 0).sort((a, b) => b.score - a.score).slice(0, 8);
+  const holder = document.getElementById('topOffers');
+  if (!top.length) {
+    holder.append(el('p', {className:'empty', textContent:'Aucune offre avec un score positif.'}));
+  } else {
+    const t = el('table');
+    t.append(el('tr', {}, ['Score', 'Offre', 'Entreprise', 'Compétences trouvées'].map(h => el('th', {textContent:h}))));
+    top.forEach(o => {
+      const title = el('td');
+      const safe = /^https?:\/\//.test(o.url || '');
+      title.append(safe ? el('a', {href:o.url, textContent:o.title, target:'_blank', rel:'noopener'}) : document.createTextNode(o.title));
+      t.append(el('tr', {}, [
+        el('td', {className:'score', textContent:o.score.toFixed(2)}), title,
+        el('td', {textContent:o.company || '—'}),
+        el('td', {textContent:(o.matched || []).map(shortName).join(', ')})
+      ]));
+    });
+    holder.append(t);
+  }
+
+  // 3. Résultats
+  const apps = tracker.applications || [];
+  const sent = apps.length;
+  const answered = apps.filter(a => a.response && a.response !== 'none').length;
+  const interviews = apps.filter(a => a.response === 'interview').length;
+  const outcome = document.getElementById('outcome');
+  outcome.append(kpi(sent, 'candidatures envoyées'), kpi(sent ? pct(answered, sent) : '—', 'taux de réponse'),
+                 kpi(interviews, 'entretiens obtenus'));
+  if (!sent) outcome.after(el('p', {className:'empty', textContent:'Aucune candidature enregistrée pour l\'instant : ces indicateurs se remplissent quand j\'ajoute mes candidatures dans applications.json.'}));
+}).catch(err => {
+  document.querySelector('main').prepend(el('p', {textContent:'Impossible de charger les données : ' + err}));
+});
+</script>
+</body>
+</html>
