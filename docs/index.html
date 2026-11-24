@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Pipeline sanity check</title></head>
+<body>
+  <h1>Pipeline sanity check — not your dashboard</h1>
+  <p>This just confirms your pipeline produced real, well-formed data. Your actual dashboard is a separate file you build yourself.</p>
+  <p>Offres : <a href="https://www.adzuna.fr">Jobs by Adzuna</a> (The Adzuna API).</p>
+  <pre id="out">Loading...</pre>
+<script>
+fetch('data/matches.json')
+  .then(r => r.json())
+  .then(data => { document.getElementById('out').textContent = JSON.stringify(data, null, 2); })
+  .catch(err => { document.getElementById('out').textContent = 'Could not load data: ' + err; });
+</script>
+</body>
+</html>
