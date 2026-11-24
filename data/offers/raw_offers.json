@@ -1,0 +1,1575 @@
+{
+  "fetched_at": "2026-11-24T13:30:30Z",
+  "source": "adzuna",
+  "search_params": {
+    "what": "stage industriel",
+    "results_per_page": 50,
+    "sort_by": "date",
+    "content-type": "application/json"
+  },
+  "total_count": 700,
+  "offers": [
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.fr/details/5977151495?utm_medium=api&utm_source=9b72b105",
+      "latitude": 43.60436,
+      "salary_max": 800,
+      "contract_type": "contract",
+      "salary_min": 800,
+      "category": {
+        "label": "Emplois Fabrication",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "manufacturing-jobs"
+      },
+      "id": "5977151495",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc3MTUxNDk1In0.2UToSekW5uwtQDyR2sJrrBDNXo5HtieNTiu4KY7YxDE",
+      "created": "2026-11-24T14:16:37Z",
+      "longitude": 1.44295,
+      "location": {
+        "display_name": "Toulouse, Haute-Garonne",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "France",
+          "Occitanie",
+          "Haute-Garonne",
+          "Toulouse"
+        ]
+      },
+      "salary_is_predicted": "0",
+      "title": "STAGE - Logisticien Hardware électronique F/H",
+      "company": {
+        "display_name": "METAVONICS",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "description": "Contexte du stage : Rattaché(e) au service Supply Chain, vous intégrez une équipe de deux personnes et travailler en étroite collaboration avec les équipes Hardware afin de mener à bien votre mission. Description des missions : Optimiser les emplacements magasins de l’entreprise via l’ERP mis en place récemment et le mettre à jour. Réaliser un inventaire du matériel et alimenter les indicateurs financiers Organiser et réaliser le comptage de tous les produits, en rapprochant ces données ave cel…"
+    },
+    {
+      "redirect_url": "https://www.adzuna.fr/details/5977015198?utm_medium=api&utm_source=9b72b105",
+      "latitude": 44.14162,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "contract_type": "contract",
+      "created": "2026-11-24T11:20:42Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NzAxNTE5OCIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.GoD0vAOgMcyZFPiys2DbDY3jRuo1YcBLb3mxIQzY1D8",
+      "company": {
+        "display_name": "GOZOKI",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5977015198",
+      "title": "STAGIAIRE INGÉNIEUR PROCESS F/H",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "longitude": 0.56118,
+      "location": {
+        "area": [
+          "France",
+          "Nouvelle-Aquitaine",
+          "Lot-et-Garonne",
+          "Agen",
+          "Agen-Ouest",
+          "Estillac"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Estillac, Agen-Ouest"
+      },
+      "description": "Le poste de STAGIAIRE INGÉNIEUR PROCESS F/H Entreprise : GOZOKI Nous sommes une entreprise agroalimentaire très dynamique qui fabrique et commercialise des produits agroalimentaires sucrés et salés haut de gamme. Notre service R&D conçoit et met au point les recettes jusqu'au transfert industriel. Missions : Au sein de notre équipe process, tu accompagneras le chef de projet dans l'installation de nouveaux équipements, leur mise en service et l'amélioration des moyens de production existants. P…"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc3MDA5Nzk1In0.vkPEtX40a6xs3348WCSxMjjEPy42QP7QJw73aLSM8a0",
+      "created": "2026-11-24T11:11:26Z",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Emplois Diplômés",
+        "tag": "graduate-jobs"
+      },
+      "title": "Stage : STAGIAIRE H/F",
+      "company": {
+        "display_name": "CEA",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5977009795",
+      "description": "Détail de l'offre Informations générales Entité de rattachement Le CEA est un acteur majeur de la recherche, au service des citoyens, de l'économie et de l'Etat. Il apporte des solutions concrètes à leurs besoins dans quatre domaines principaux : transition énergétique, transition numérique, technologies pour la médecine du futur, défense et sécurité sur un socle de recherche fondamentale. Le CEA s'engage depuis plus de 75 ans au service de la souveraineté scientifique, technologique et industr…",
+      "location": {
+        "area": [
+          "France",
+          "Ile-de-France",
+          "Essonne",
+          "Palaiseau",
+          "Saclay"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Saclay, Palaiseau"
+      },
+      "longitude": 2.17437,
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.fr/details/5977009795?utm_medium=api&utm_source=9b72b105",
+      "latitude": 48.73085,
+      "contract_type": "contract"
+    },
+    {
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.fr/details/5977000202?utm_medium=api&utm_source=9b72b105",
+      "latitude": 44.684533,
+      "contract_type": "permanent",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc3MDAwMjAyIn0.k2U_-NwKYvbMzaq7vIcosE0nktfP-VNAZkycwr-6eLs",
+      "created": "2026-11-24T11:04:05Z",
+      "category": {
+        "tag": "sales-jobs",
+        "label": "Emplois Vente",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "Technicien Automatisme et Informatique Industrielle - Stage - H/F",
+      "id": "5977000202",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Assystem"
+      },
+      "description": "Entreprise : Répondre aux défis de la transition énergétique et renforcer notre souveraineté sont des priorités du XXIe siècle. Au cœur de ces enjeux, Assystem accompagne ses clients dans la réalisation de leurs projets les plus stratégiques. Et pour y parvenir, nos 8 000 Switchers mobilisent leur expertise en ingénierie, management de projet et digital. Présents dans 13 pays (Europe, Moyen-Orient, Asie centrale, Amérique du Nord), nous contribuons au développement de nouvelles capacités de pro…",
+      "location": {
+        "area": [
+          "France",
+          "Auvergne-Rhône-Alpes",
+          "Drôme"
+        ],
+        "display_name": "Drôme, Auvergne-Rhône-Alpes",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": 5.070163
+    },
+    {
+      "contract_type": "permanent",
+      "latitude": 48.89312,
+      "redirect_url": "https://www.adzuna.fr/details/5976991290?utm_medium=api&utm_source=9b72b105",
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "France",
+          "Ile-de-France",
+          "Seine-Saint-Denis",
+          "Bobigny",
+          "Pantin"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Pantin, Bobigny"
+      },
+      "longitude": 2.4128,
+      "description": "Stage de 6 mois conventionné à temps plein, à partir du premier semestre 2027. Basé à Pantin (accessible Métro Ligne 5 et RER). Vos atouts Curieux des processus de fabrication et sensible aux belles matières, vous aimez comprendre comment un objet prend forme. Ce stage est fait pour vous si vous souhaitez mettre votre rigueur au service d'une maison où le savoir-faire, l'innovation et la qualité sont au cœur de chaque créations. À propos de l'entité Au sein de la Direction Industrielle d'Hermès…",
+      "created": "2026-11-24T10:45:43Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3Njk5MTI5MCIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.N4uxyF9LlibPtQawYLnZMcE0ymxp5iEB2HO6p6loTkY",
+      "id": "5976991290",
+      "company": {
+        "display_name": "Hermes",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "pr-advertising-marketing-jobs",
+        "label": "Emplois RP, Publicité et Marketing",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "Stage - Assistant Développement Industriel (H/F)"
+    },
+    {
+      "redirect_url": "https://www.adzuna.fr/details/5976701264?utm_medium=api&utm_source=9b72b105",
+      "latitude": 48.78283,
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_type": "contract",
+      "id": "5976701264",
+      "company": {
+        "display_name": "3ds",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "STAGE - Ingénieur en Modélisation et Simulation (MODSIM) appliquée a la Dynamique des Fluides (F/H)",
+      "category": {
+        "label": "Emplois Diplômés",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "graduate-jobs"
+      },
+      "created": "2026-11-24T05:05:59Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NjcwMTI2NCIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.a0MY_VIpxF5FBPwLItsEk8V7b86IGhouJwRMEwEbG3U",
+      "location": {
+        "area": [
+          "France",
+          "Ile-de-France",
+          "Yvelines",
+          "Versailles",
+          "Vélizy-Villacoublay"
+        ],
+        "display_name": "Vélizy-Villacoublay, Versailles",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": 2.19001,
+      "description": "Nous recherchons un(e) stagiaire motivé(e) et passionné(e) pour rejoindre notre équipe SIMULIA Fluide WW. Vous contribuerez à des projets variés impliquant la conception, le développement et la validation de modèles et de simulations pour diverses applications industrielles. Ce stage offre une opportunité unique d'acquérir une expérience pratique dans l'utilisation d'outils de simulation avancés chez SIMULIA et de collaborer avec des experts dans le domaine à travers notre plateforme 3DEXPERIEN…"
+    },
+    {
+      "description": "• • • • • • • • Intership - Junior Product Designer About the role · Recherche images concurrentielle pour notre collection bijoux, lunette et montre. · Création des produits en 3D, Illustrator et main pour toutes les catégories accessoires. · Recherche des graphisme/ motif . · Recherche des gammes couleurs. · Suivie des projet en cours Profile Stage - Junior Designer Produit avec une grande sensibilité à la mode, les tendances, le graphisme et les couleurs. Profil transversal et indépendant po…",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Paris, Ile-de-France",
+        "area": [
+          "France",
+          "Ile-de-France",
+          "Paris"
+        ]
+      },
+      "longitude": 2.344631,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NjY0MzQzNyIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.AZmq3fmcmWDTdKkB5oeHpOkzONuy72r_wXn_B4GjPrY",
+      "created": "2026-11-24T04:27:30Z",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Emplois Commerce détail",
+        "tag": "retail-jobs"
+      },
+      "title": "Intership - Junior Product Designer",
+      "company": {
+        "display_name": "Lacoste",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5976643437",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.fr/details/5976643437?utm_medium=api&utm_source=9b72b105",
+      "latitude": 48.863839
+    },
+    {
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "latitude": 44.1575,
+      "redirect_url": "https://www.adzuna.fr/land/ad/5976638556?se=mnW9Nwvo8RG0cJDEg-4TVA&utm_medium=api&utm_source=9b72b105&v=4FAF284E089722004213C8C1A599C579C94D4A31",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "Stagiaire Ingénieur Process H/F",
+      "id": "5976638556",
+      "company": {
+        "display_name": "Gozoki",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NjYzODU1NiIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.Pk9PROI8CWkVKgzcjquGjEMxAyYyW-n75A9AkvNBM5E",
+      "created": "2026-11-24T04:23:12Z",
+      "description": "Au sein de notre équipe process, tu accompagneras le chef de projet dans l'installation de nouveaux équipements, leur mise en service et l'amélioration des moyens de production existants. Tes principales missions seront : - Participer à l'installation et au raccordement des nouveaux équipements industriels, - Superviser les fournisseurs et prestataires lors des interventions, - Participer à la réception et à la qualification des équipements, - Assurer le suivi technique des installations et réd…",
+      "longitude": 0.5653,
+      "location": {
+        "display_name": "Estillac, Agen-Ouest",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "France",
+          "Nouvelle-Aquitaine",
+          "Lot-et-Garonne",
+          "Agen",
+          "Agen-Ouest",
+          "Estillac"
+        ]
+      }
+    },
+    {
+      "description": "Description du poste et Missions Fives Machining recherche activement un Stage Ingenieur Automatisme F/H pour venir renforcer ses équipes à Saint-Priest (69). Chez Fives, nous sommes toutes et tous portés par une vocation commune, celle de faire aimer l'industrie ! Ensemble, nous œuvrons au quotidien pour faire de l'industrie une réponse aux grands défis de notre temps : technologiques, environnementaux, sociétaux, économiques. Comment ? En inventant et en concevant, depuis plus de 200 ans, les…",
+      "location": {
+        "display_name": "Saint-Priest, Lyon",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "France",
+          "Auvergne-Rhône-Alpes",
+          "Rhône",
+          "Lyon",
+          "Saint-Priest"
+        ]
+      },
+      "longitude": 4.93505,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NjU5Nzc3MyIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.bqQmH2tAf_aMYhDLYOQbTuGJVejN5v6wSROFl95Pczc",
+      "created": "2026-11-24T03:35:50Z",
+      "title": "Stage Ingénieur Automatisme F/H",
+      "category": {
+        "tag": "hospitality-catering-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Emplois Hospitalité et Restauration"
+      },
+      "company": {
+        "display_name": "Fives Machining",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5976597773",
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.fr/details/5976597773?utm_medium=api&utm_source=9b72b105",
+      "latitude": 45.69416
+    },
+    {
+      "location": {
+        "area": [
+          "France",
+          "Pays de la Loire",
+          "Loire-Atlantique",
+          "Saint-Nazaire"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Saint-Nazaire, Loire-Atlantique"
+      },
+      "longitude": -2.21361,
+      "description": "Vous souhaitez découvrir les méthodes de production et contribuer à l'amélioration des outils utilisés pour fabriquer les cabines de paquebots ? Rejoignez notre équipe pour un stage au coeur de notre activité industrielle. Présentation du service : Au sein de notre usine de fabrication des cabines de paquebots, qui produit environ 5 000 cabines par an sur un site de 26 000 m² et compte 350 personnes, vous rejoindrez le service Méthodes Production, composé de 13 personnes. Dans un environnement …",
+      "created": "2026-11-24T00:40:55Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NjUyMDY1NyIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.6HYXT9-VjZ1D_eOB3amSsZmN7T09QhPnpOrdVptzPlY",
+      "id": "5976520657",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Chantiers de l'Atlantique"
+      },
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "title": "Stage Assistant Technicien Méthodes Production H/F",
+      "redirect_url": "https://www.adzuna.fr/land/ad/5976520657?se=mnW9Nwvo8RG0cJDEg-4TVA&utm_medium=api&utm_source=9b72b105&v=BD010627AB491403C4155F1A228168AC5FEA4E53",
+      "latitude": 47.27432,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0"
+    },
+    {
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.fr/land/ad/5976407555?se=mnW9Nwvo8RG0cJDEg-4TVA&utm_medium=api&utm_source=9b72b105&v=4A21FD1AC097F2CA4416833939479B44E992B79F",
+      "latitude": 47.27432,
+      "title": "Stage Technicien(e) Digitalisation industrielle H/F",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "id": "5976407555",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Chantiers de l'Atlantique"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc2NDA3NTU1In0.izeAuJ7ZCPNMTVfs3DGJZMBGa9ef18KTed2egS1b05s",
+      "created": "2026-11-23T20:50:25Z",
+      "description": "En Zone Technique, les équipes de montage donnent vie aux plans des bureaux d'études. À bord des navires, elles installent notamment les réseaux de tuyauterie, les gaines de ventilation, les chemins de câbles et les équipements nécessaires au fonctionnement des salles machines. Pour réaliser ces travaux, elles s'appuient sur des plans et sur différents outils informatiques. Votre stage consiste à les accompagner dans l'utilisation de ces outils informatique, dans une démarche de digitalisation …",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Saint-Nazaire, Loire-Atlantique",
+        "area": [
+          "France",
+          "Pays de la Loire",
+          "Loire-Atlantique",
+          "Saint-Nazaire"
+        ]
+      },
+      "longitude": -2.21361
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.fr/land/ad/5976397603?se=mnW9Nwvo8RG0cJDEg-4TVA&utm_medium=api&utm_source=9b72b105&v=B5BA392798445613EF6BA8E3561C9549D32C7E41",
+      "latitude": 44.8952,
+      "contract_type": "contract",
+      "title": "STAGE - Ingénieure / Ingénieur en Informatique Industrielle / Automatisme - Data Science et Data Management IA",
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      },
+      "company": {
+        "display_name": "ArianeGroup",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5976397603",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NjM5NzYwMyIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.HMlIx9DSpK3aG3fPyhpASU5PLNY4Th5VsGQI8_GTg44",
+      "created": "2026-11-23T20:46:06Z",
+      "description": "Description de l'offre : Dans le cadre de sa campagne de stage, ArianeGroup recrute une Ingénieure ou un Ingénieur spécialisé en en Informatique Industrielle / Automatisme - Data Science et Data Management IA en stage. Le service « Industrial Systems Automatization » assure le support technique et le développement d'équipements/moyens intelligents à base d'automates ou de robots pour les projets militaires et civils. Sous la responsabilité de votre maître de stage, vous participez aux missions …",
+      "longitude": -0.71468,
+      "location": {
+        "display_name": "Saint-Médard-en-Jalles, Bordeaux",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "France",
+          "Nouvelle-Aquitaine",
+          "Gironde",
+          "Bordeaux",
+          "Saint-Médard-en-Jalles"
+        ]
+      }
+    },
+    {
+      "latitude": 49.09046,
+      "redirect_url": "https://www.adzuna.fr/land/ad/5976397360?se=mnW9Nwvo8RG0cJDEg-4TVA&utm_medium=api&utm_source=9b72b105&v=FE9EFEE15D9AE5CC29A6391C701F0B97F2A175A5",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "contract_type": "contract",
+      "company": {
+        "display_name": "ArianeGroup",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5976397360",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "STAGE - Cheffe / Chef de projet industriel",
+      "created": "2026-11-23T20:45:51Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NjM5NzM2MCIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.3ovOl7UkvjlLpe680wG5UkN2rAzqHHifzh-xJoUogtw",
+      "longitude": 1.4843,
+      "location": {
+        "area": [
+          "France",
+          "Normandie",
+          "Eure",
+          "Evreux",
+          "Vernon"
+        ],
+        "display_name": "Vernon, Evreux",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "description": "Description de l'offre : Dans le cadre de sa campagne de stage, ArianeGroup recrute une Cheffe / un Cheff de prjet industriel. Sous la responsabilité de votre maître de stage, vous participerez aux missions suivantes : - Pilotage de projets d'acquisition de machines de production - Amélioration du processus d'investissements de l'unité de production - Mise en place d'outils simplifiant la réalisation des investissements Vous souhaitez développer des compétences sur l'amélioration et l'applicati…"
+    },
+    {
+      "contract_type": "contract",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "latitude": 49.09046,
+      "redirect_url": "https://www.adzuna.fr/land/ad/5976397132?se=mnW9Nwvo8RG0cJDEg-4TVA&utm_medium=api&utm_source=9b72b105&v=413F8579CC73E7C91D429159D9698A7D92E646FE",
+      "description": "Description : Dans le cadre de sa campagne de stage, ArianeGroup recrute une Ingénieur ou un Ingénieur en Optimisation de la Logistique Interne. Au sein de la Direction de la Supply Chain, le service logistique de Vernon opère toute la logistique interne (réception, gestion de stocks, manutention, distribution, mise en expédition des matériels). Dans un contexte de montée en cadence (ramp-up) des programmes Ariane 6 et Prométheus, le service logistique du site de Vernon doit s'adapter et revoir…",
+      "longitude": 1.4843,
+      "location": {
+        "area": [
+          "France",
+          "Normandie",
+          "Eure",
+          "Evreux",
+          "Vernon"
+        ],
+        "display_name": "Vernon, Evreux",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc2Mzk3MTMyIn0.DY8ePSiKHGciPOXLEV7zDgQUDd6bfkwPDEbXE_7gt5c",
+      "created": "2026-11-23T20:45:41Z",
+      "title": "STAGE - Ingénieure / Ingénieur en supply chain - Optimisation de la logistique interne",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "ArianeGroup",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5976397132"
+    },
+    {
+      "contract_type": "contract",
+      "latitude": 48.23215,
+      "redirect_url": "https://www.adzuna.fr/land/ad/5976397023?se=mnW9Nwvo8RG0cJDEg-4TVA&utm_medium=api&utm_source=9b72b105&v=D8D143DBB97AF679DB415ED8804003E1A916C4A9",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "France",
+          "Bretagne",
+          "Finistère",
+          "Châteaulin",
+          "Crozon"
+        ],
+        "display_name": "Crozon, Châteaulin",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": -4.35794,
+      "description": "Description de l'offre : Dans le cadre de sa campagne de stage, ArianeGroup recrute une Ingénieure ou un Ingénieur en optimisation industrielle. Intégré au sein d'un site de la Marine Nationale sur la presqu'île de Crozon, ArianeGroup réalise les activités suivantes : * La préparation finale et l'intégration d'équipements à haute valeur technologique jusqu'à leur embarquement à bord des SNLE. * La maintenance opérationnelle et le maintien en condition des systèmes pour la Force Océanique Straté…",
+      "created": "2026-11-23T20:45:37Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NjM5NzAyMyIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0._98Al1NXzRlb2oqddtN8mCNodei9MsTUbp12clQUz94",
+      "id": "5976397023",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "ArianeGroup"
+      },
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "STAGE - Ingénieure / Ingénieur en Optimisation Industrielle"
+    },
+    {
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.fr/details/5976274998?utm_medium=api&utm_source=9b72b105",
+      "latitude": 43.55444,
+      "description": "Lieu : Cannes, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d’activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l’environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d’euros par an en Recherche & Développement, notamment dans des domaines clés de l’innovation tels q…",
+      "longitude": 6.98104,
+      "location": {
+        "area": [
+          "France",
+          "Provence-Alpes-Côte d'Azur",
+          "Alpes-Maritimes",
+          "Grasse",
+          "Cannes"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Cannes, Grasse"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc2Mjc0OTk4In0.bTlwfBpOumbl75fEz8Q06cBsnxkuWxHiDO50SNT_vxE",
+      "created": "2026-11-23T18:16:38Z",
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "title": "Stage – Ingénieur moyens d'essais thermique – (H/F)",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Thales"
+      },
+      "id": "5976274998"
+    },
+    {
+      "description": "Lieu : Etrelles, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d’activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l’environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d’euros par an en Recherche & Développement, notamment dans des domaines clés de l’innovation tels…",
+      "location": {
+        "display_name": "Étrelles, La Guerche-de-Bretagne",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "France",
+          "Bretagne",
+          "Ille-et-Vilaine",
+          "Rennes",
+          "La Guerche-de-Bretagne",
+          "Étrelles"
+        ]
+      },
+      "longitude": -1.193864,
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "STAGE – Ingénieur Méthodes Industrielles F/H",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Thales"
+      },
+      "id": "5976271117",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc2MjcxMTE3In0.QhWSShBmfjE8TH0qgsQQJLCXWrIUvDx5ThFGmksDaFQ",
+      "created": "2026-11-23T18:12:32Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "latitude": 48.060169,
+      "redirect_url": "https://www.adzuna.fr/details/5976271117?utm_medium=api&utm_source=9b72b105"
+    },
+    {
+      "latitude": 45.15861,
+      "redirect_url": "https://www.adzuna.fr/details/5976253453?utm_medium=api&utm_source=9b72b105",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "contract_time": "full_time",
+      "location": {
+        "area": [
+          "France",
+          "Nouvelle-Aquitaine",
+          "Corrèze",
+          "Brive-la-Gaillarde"
+        ],
+        "display_name": "Brive-la-Gaillarde, Corrèze",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": 1.53263,
+      "description": "Lieu : Brive-la-Gaillarde, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d’activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l’environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d’euros par an en Recherche & Développement, notamment dans des domaines clés de l’innov…",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Thales"
+      },
+      "id": "5976253453",
+      "title": "STAGE - Assistant en gestion de production industrielle - F/H",
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "created": "2026-11-23T17:51:00Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc2MjUzNDUzIn0.aV3NO1SDh-wS35LNj2TinXU3R_bk8FKcPZD4_MZpT-s"
+    },
+    {
+      "contract_type": "permanent",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "latitude": 47.21684,
+      "redirect_url": "https://www.adzuna.fr/details/5976141177?utm_medium=api&utm_source=9b72b105",
+      "description": "Rattaché(e) opérationnellement à un chef de projet et fonctionnellement à la Qualité Système, vous intervenez en support des équipes projets afin de garantir la conformité documentaire, le respect des processus qualité et l'amélioration continue des outils. En appui direct au Responsable Qualité Système, vos missions consistent notamment à : - Vérifier et consolider les preuves qualité nécessaires au passage des revues de jalons projets (gate reviews) ; - Préparer et contribuer aux revues de di…",
+      "location": {
+        "area": [
+          "France",
+          "Pays de la Loire",
+          "Loire-Atlantique",
+          "Nantes"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Nantes, Loire-Atlantique"
+      },
+      "longitude": -1.55674,
+      "category": {
+        "tag": "engineering-jobs",
+        "label": "Emplois Ingénierie",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "Qualiticien(ne) Système / Indus F/H",
+      "company": {
+        "display_name": "B-HIVE",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5976141177",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc2MTQxMTc3In0.ZH2ghzqIIMexuR0uJlXQSOLX0wjA8BS2RS1ppP2dz1o",
+      "created": "2026-11-23T14:23:20Z"
+    },
+    {
+      "redirect_url": "https://www.adzuna.fr/details/5976140619?utm_medium=api&utm_source=9b72b105",
+      "latitude": 45.72035,
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_type": "permanent",
+      "created": "2026-11-23T14:23:14Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc2MTQwNjE5In0.Yq1XF-waVCXOY8U0bkAmu3rgrRrXA4FW1mb4hOqj-c0",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "LGM"
+      },
+      "id": "5976140619",
+      "category": {
+        "label": "Emplois Immobilier",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "property-jobs"
+      },
+      "title": "Ingénieur(e) Généraliste Débutant(e) - Power Platform en milieu industriel F/H",
+      "longitude": 5.08666,
+      "location": {
+        "area": [
+          "France",
+          "Auvergne-Rhône-Alpes",
+          "Rhône",
+          "Lyon"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Lyon, Rhône"
+      },
+      "description": "Ce que nous pouvons accomplir ensemble : Rattaché(e) à notre agence de Lyon composée d'une cinquantaine de personnes, vous serez accueilli(e) par une chaleureuse équipe d'ingénieur(e)s et technicien(ne)s passionné(e)s, investi(e)s et reconnu(e)s pour leur expertise métier développée au service des plus grands industriels. Ce poste vous permettra d'intervenir auprès de grands comptes industriels, au plus près de leurs équipes de production, de maintenance et de qualité, pour digitaliser leurs pr…"
+    },
+    {
+      "salary_is_predicted": "0",
+      "description": "Dans le cadre du développement de ses activités, notre client recherche un(e) Planificateur(trice) / Ordonnanceur(se) afin de renforcer ses équipes et d'assurer le suivi et l'organisation de ses activités de production ou d'intervention. Vous serez chargé(e) de coordonner et d'optimiser la planification des ressources, des moyens humains et matériels, dans le respect des délais et des priorités. Vos principales missions Élaborer et mettre à jour les plannings d'intervention ou de production. Or…",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "SKILEA CONSULTING"
+      },
+      "title": "Planificateur – ordonnancement F/H",
+      "contract_type": "permanent",
+      "salary_min": 35000,
+      "salary_max": 45000,
+      "latitude": 47.85975,
+      "redirect_url": "https://www.adzuna.fr/details/5976139550?utm_medium=api&utm_source=9b72b105",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "France",
+          "Grand-Est",
+          "Haute-Marne",
+          "Langres"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Langres, Haute-Marne"
+      },
+      "longitude": 5.184,
+      "created": "2026-11-23T14:22:13Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NjEzOTU1MCIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.ewGUKdmbIdLOREXt0c4tUoJAytYNxo8NMq0Gl697zKg",
+      "id": "5976139550",
+      "category": {
+        "label": "Emplois Ingénierie",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "engineering-jobs"
+      }
+    },
+    {
+      "longitude": 2.14818,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "La Ferté-Saint-Aubin, Orléans",
+        "area": [
+          "France",
+          "Centre",
+          "Loiret",
+          "Orléans",
+          "La Ferté-Saint-Aubin"
+        ]
+      },
+      "description": "Lieu : La Ferté-Saint-Aubin, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d'activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l'environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d'euros par an en Recherche & Développement, notamment dans des domaines clés de l'inn…",
+      "id": "5976056520",
+      "company": {
+        "display_name": "Thales",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "STAGE - Supply Chain & Amélioration continue- F/H",
+      "created": "2026-11-23T12:50:52Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NjA1NjUyMCIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.kZxtyCsM4p4S_mYY9N74GXhnjxaegwD922jES9hiWHc",
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.fr/details/5976056520?utm_medium=api&utm_source=9b72b105",
+      "latitude": 47.67861,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc1OTkzODUxIn0.l2K0GyvAlRpXs-GBSYjxbr9tGQIbUCIS31Y2Nbc6u20",
+      "created": "2026-11-23T12:17:16Z",
+      "title": "Automaticien - siemens f/h (CDI)",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "id": "5975993851",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "CORIS INNOVATION"
+      },
+      "description": "Coris Innovation est une entreprise spécialisée dans les métiers de l'ingénierie système et des processus industriels. Fondée en 2015, notre société a été imaginée selon un principe clairement défini : Inscrire le consulting dans une relation durable et de proximité en assurant la satisfaction de nos partenaires, de nos consultants et de notre structure. Cette conception du conseil en ingénierie est aujourd'hui partagée par une centaine de collaborateurs répartis au sein de 5 agences entre la S…",
+      "longitude": 2.32386,
+      "location": {
+        "area": [
+          "France",
+          "Centre",
+          "Cher"
+        ],
+        "display_name": "Cher, Centre",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "latitude": 47.009047,
+      "redirect_url": "https://www.adzuna.fr/details/5975993851?utm_medium=api&utm_source=9b72b105",
+      "contract_type": "permanent"
+    },
+    {
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.fr/details/5975993727?utm_medium=api&utm_source=9b72b105",
+      "latitude": 43.4082,
+      "contract_type": "contract",
+      "title": "STAGE - Ingénieur Développement Industriel Fabrica H/F (Stage)",
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      },
+      "company": {
+        "display_name": "THALES SA",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5975993727",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NTk5MzcyNyIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.70SOt6MRoSlMtybOoJ4moAl1k4iusTA0Xl_DqldSU50",
+      "created": "2026-11-23T12:16:40Z",
+      "description": "Depuis plus de vingt ans, Thales déploie de façon proactive une politique affirmée en matière de responsabilité d’entreprise fondée sur les standards internationaux les plus élevés. Celle ci est en parfait accord avec la raison d’être que l’entreprise a adoptée en 2020, Construisons ensemble un avenir de confiance. À travers cette démarche, le Groupe répond aux demandes de ses clients, de ses collaborateurs, des investisseurs et des marchés financiers pour une entreprise toujours plus performan…",
+      "location": {
+        "display_name": "Haute-Garonne, Occitanie",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "France",
+          "Occitanie",
+          "Haute-Garonne"
+        ]
+      },
+      "longitude": 1.13894
+    },
+    {
+      "description": "Konvert Tournai recherche activement un électricien(ne) industriel(le) pour une société spécialisée dans l'entretien et réparation d'infrastructures industrielles chez des clients actifs principalement dans le secteur tertiaire et dans l’industrie dans la région Mouscron-Comines.Vous intervenez sur une grande variété d’équipements : armoires électriques, installations de production automatisées, systèmes de commande, réseaux d’alimentation et composants industriels.Vos responsabilités incluent …",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "France",
+        "area": [
+          "France"
+        ]
+      },
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "Stage - Electricien industriel H/F",
+      "id": "5975769009",
+      "company": {
+        "display_name": "KONVERT INTERIM",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NTc2OTAwOSIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.DJn3w5NJt2N-EVHbrjvnY5-3JDH_DqgYzG4twjwFyZs",
+      "created": "2026-11-23T05:54:54Z",
+      "contract_type": "contract",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.fr/details/5975769009?utm_medium=api&utm_source=9b72b105"
+    },
+    {
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.fr/details/5975768988?utm_medium=api&utm_source=9b72b105",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "France",
+        "area": [
+          "France"
+        ]
+      },
+      "description": "Nous recherchons un Technicien Industriel motivé et polyvalent, disposant de solides compétences en mécanique industrielle, pour rejoindre notre équipe.Vous jouerez un rôle essentiel dans l’installation, la maintenance et l’amélioration de nos équipements industriels, dans un environnement technique stimulant.Vos tâches:Assurer la maintenance préventive et curative des équipements industriels.Diagnostiquer et résoudre des pannes électriques, électroniques et mécaniques.Installer, configurer et …",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "KONVERT INTERIM"
+      },
+      "id": "5975768988",
+      "title": "Stage - Technicien industriel H/F",
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "created": "2026-11-23T05:54:53Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NTc2ODk4OCIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.JStyg7rgY-BIUzjA5AfnSWDIscvIktfwBtdw9F_7Fco"
+    },
+    {
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.fr/details/5975768911?utm_medium=api&utm_source=9b72b105",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "France",
+        "area": [
+          "France"
+        ]
+      },
+      "description": "Konvert Tournai recherche activement un chef de projet spécialisé en automatisation pour la région de PLOEGSTEERT/LE BIZET, vous pilotez l’ensemble des projets liés aux processus automatisés dans des environnements de production. Votre rôle consiste à comprendre précisément les attentes des clients, à les transformer en solutions techniques adaptées et à en superviser la réalisation du début à la fin. Vous collaborez avec des experts en programmation, en électrotechnique et en conception, et vo…",
+      "created": "2026-11-23T05:54:52Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NTc2ODkxMSIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.0vmRvvuWp90O3uPwjJcduFU6EPRwOBQa2FowJdVGBKw",
+      "id": "5975768911",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "KONVERT INTERIM"
+      },
+      "title": "Stage - Chef de projet en automatisation industrielle H/F",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      }
+    },
+    {
+      "created": "2026-11-23T05:07:43Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc1NzM1OTk5In0.PQ4W14SI6IYAip0QZ6Ku7nujphZk_oyZQoR7RDsIq_M",
+      "id": "5975735999",
+      "company": {
+        "display_name": "OKTOGONE",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Alternance Chef de projets Achats - Brégy (F/H)",
+      "category": {
+        "label": "Emplois Diplômés",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "graduate-jobs"
+      },
+      "location": {
+        "display_name": "France",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "France"
+        ]
+      },
+      "description": "Description : Avez-vous les compétences pour ce poste ? Lisez les détails complets ci-dessous, et envoyez votre candidature dès aujourd'hui. L'ISCOD, spécialiste de la formation en Digital Learning, recherche pour son entreprise partenaire, spécialisée dans la fabrication de broyeurs à usage domestique , un.e Chef de projets Achats , pour préparer l'une de nos formations diplômantes reconnues par l'Etat, de niveau 4 à niveau 7 (Bac, Bac2, Bachelor/Bac3 ou Mastère/Bac5). Choisissez l'alternance …",
+      "redirect_url": "https://www.adzuna.fr/details/5975735999?utm_medium=api&utm_source=9b72b105",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_type": "contract"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc1NzA1ODQ1In0.lFNz54cs6fqluxXUl1azSUpfYv5IeiKN-CBZUsbmygA",
+      "created": "2026-11-23T04:24:01Z",
+      "title": "Alternance Chef de Projets Achats - Brégy H/F",
+      "category": {
+        "label": "Emplois Enseignement",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "teaching-jobs"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "ISCOD"
+      },
+      "id": "5975705845",
+      "description": "Description : L'ISCOD, spécialiste de la formation en Digital Learning, recherche pour son entreprise partenaire, spécialisée dans la fabrication de broyeurs à usage domestique, un.e Chef de projets Achats, pour préparer l'une de nos formations diplômantes reconnues par l'Etat, de niveau 4 à niveau 7 (Bac, Bac 2, Bachelor/Bac 3 ou Mastère/Bac 5). Choisissez l'alternance nouvelle génération avec l'ISCOD ! Missions : - Participer au développement et à la structuration de l'activité Achats. - Réal…",
+      "location": {
+        "display_name": "France",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "France"
+        ]
+      },
+      "salary_max": 1823,
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.fr/details/5975705845?utm_medium=api&utm_source=9b72b105",
+      "salary_min": 492
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NTI3Mzc4MCIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.l0-lI5XHtPyKEw0Wn9njTvFHOtCRw3CZEiUTzXKq990",
+      "created": "2026-11-22T18:13:49Z",
+      "title": "Stage - Développement logiciel protocole de communication & cybersécurité H/F",
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "company": {
+        "display_name": "Air Liquide",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5975273780",
+      "description": "Air Liquide Medical Systems is the subsidiary of Air Liquide Healthcare that is dedicated to Medical Devices. The company develops, manufactures and sells innovative products in three fields: ventilation (ventilators and patient interfaces for intensive care, emergency care, transport, home), equipments for medical gases and aerosol therapy. We have approximately 460 employees worldwide, including 245 in France. All sedentary employees are based on our site in Antony: from R&D to manufacturing,…",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "France",
+        "area": [
+          "France"
+        ]
+      },
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.fr/details/5975273780?utm_medium=api&utm_source=9b72b105"
+    },
+    {
+      "redirect_url": "https://www.adzuna.fr/details/5975266330?utm_medium=api&utm_source=9b72b105",
+      "latitude": 48.78677,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "France",
+          "Ile-de-France",
+          "Hauts-de-Seine",
+          "Boulogne-Billancourt",
+          "Meudon"
+        ],
+        "display_name": "Meudon, Boulogne-Billancourt",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": 2.22843,
+      "description": "Lieu : Meudon, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d’activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l’environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d’euros par an en Recherche & Développement, notamment dans des domaines clés de l’innovation tels q…",
+      "created": "2026-11-22T18:07:01Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NTI2NjMzMCIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.8Q-xzAuCO3trjKEE8uvK4CM1C9Usfyeu7w19DQkxFcw",
+      "id": "5975266330",
+      "company": {
+        "display_name": "Thales",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "title": "STAGE - Ingénieur IA & SAP – H/F"
+    },
+    {
+      "redirect_url": "https://www.adzuna.fr/details/5975259435?utm_medium=api&utm_source=9b72b105",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "contract_time": "full_time",
+      "salary_max": 1100,
+      "salary_min": 1100,
+      "id": "5975259435",
+      "company": {
+        "display_name": "Itron",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "title": "Stage - Ingénieur Qualité Produit & Process industriel- 6 mois (F /H/NB)",
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      },
+      "created": "2026-11-22T18:00:39Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NTI1OTQzNSIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.PpvJMWdUS1PC1PljvchKHSa5hCQwKHEQbe1hEf6YFqM",
+      "location": {
+        "display_name": "France",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "France"
+        ]
+      },
+      "description": "Sensible aux enjeux de préservations d’énergie ? Vous recherchez un stage professionnalisant en industrie mêlant qualité et amélioration continue ? Alors cette annonce peut vous intéresser : Ingénieur Qualité Produit & Process industriel- stage 6 mois (F /H/NB) Le site d’Itron Mâcon produit chaque année 4 millions de compteurs d’eau intelligents et de modules de communication électroniques. Dans un contexte d’évolution rapide de nos produits et dans le cadre de l’amélioration continue de nos pr…"
+    },
+    {
+      "description": "Informations générales Entité de rattachement Le CEA est un acteur majeur de la recherche, au service des citoyens, de l'économie et de l'Etat. Il apporte des solutions concrètes à leurs besoins dans quatre domaines principaux : transition énergétique, transition numérique, technologies pour la médecine du futur, défense et sécurité sur un socle de recherche fondamentale. Le CEA s'engage depuis plus de 75 ans au service de la souveraineté scientifique, technologique et industrielle de la France…",
+      "location": {
+        "area": [
+          "France",
+          "Ile-de-France",
+          "Essonne",
+          "Palaiseau",
+          "Saclay"
+        ],
+        "display_name": "Saclay, Palaiseau",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": 2.181987,
+      "title": "Stagiaire H/F",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "CEA"
+      },
+      "id": "5975256225",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NTI1NjIyNSIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.b5DaqlU1_7VdbjPC2oSO53ldGMy-yQvABfclMhJf-KM",
+      "created": "2026-11-22T17:57:34Z",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.fr/details/5975256225?utm_medium=api&utm_source=9b72b105",
+      "latitude": 48.736825
+    },
+    {
+      "redirect_url": "https://www.adzuna.fr/details/5974796159?utm_medium=api&utm_source=9b72b105",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "location": {
+        "area": [
+          "France"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "France"
+      },
+      "description": "Stage : Ingénieur Généraliste - Qualité Produit & Performance Industrielle F/H Détail de l'offre Informations générales Entité de rattachement Safran est un groupe international de haute technologie opérant dans les domaines de l'aéronautique (propulsion, équipements et intérieurs), de l'espace et de la défense. Sa mission : contribuer durablement à un monde plus sûr, où le transport aérien devient toujours plus respectueux de l'environnement, plus confortable et plus accessible. Implanté sur t…",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Safran"
+      },
+      "id": "5974796159",
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "title": "Stage : Ingnieur Gnraliste - Qualit Produit & Performance Industrielle F/H",
+      "created": "2026-11-22T08:03:14Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc0Nzk2MTU5In0.hH-VJ4o7hyakRUOakymlzi9cWh9b2xXAMlX8VVT4hf8"
+    },
+    {
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.fr/details/5974795489?utm_medium=api&utm_source=9b72b105",
+      "latitude": 48.44441,
+      "description": "Planning Trainee STAGIAIRE PLANNING & FLUX SUPPLY CHAIN (H/F) Supply Chain / Logistique Rejoignez Coty pour contribuer directement à l'amélioration de la performance Supply Chain de notre usine de Chartres à travers des projets stratégiques en planification, gestion des stocks et conception de flux industriels. Vous aurez pour objectif d'optimiser les niveaux de stock, de structurer les futurs flux physiques et de renforcer notre efficacité opérationnelle. LE POSTE OPTIMISER, ACCOMPAGNER, INNOV…",
+      "longitude": 1.48417,
+      "location": {
+        "display_name": "Chartres, Eure-et-Loir",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "France",
+          "Centre",
+          "Eure-et-Loir",
+          "Chartres"
+        ]
+      },
+      "title": "Planning Trainee",
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      },
+      "company": {
+        "display_name": "Coty",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5974795489",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc0Nzk1NDg5In0.YY0T8gmixg7a3cLEz-zQPu0loC01tluxGxKANregKfM",
+      "created": "2026-11-22T08:02:09Z"
+    },
+    {
+      "title": "Stage (Bac3/5) Informatique Industrielle - Dveloppement d'une Solution de Monitoring de Systmes Logiciels Industriels (Rf R0000402614 - 16-2026)",
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "company": {
+        "display_name": "Caterpillar, Inc.",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5974795474",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc0Nzk1NDc0In0.eYjWkDS16p4hKMA_NlNKYEDkE_xoR4EunpiRZjuh-eM",
+      "created": "2026-11-22T08:02:08Z",
+      "description": "Grenoble, Isere Full time R0000402614 Career Area: Business Services Job Description: Your Work Shapes the World at Caterpillar Inc. When you join Caterpillar, you're joining a global team who cares not just about the work we do - but also about each other. We are the makers, problem solvers, and future world builders who are creating stronger, more sustainable communities. We don't just talk about progress and innovation here - we make it happen, with our customers, where we work and live. Tog…",
+      "longitude": 5.73163,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Grenoble, Isère",
+        "area": [
+          "France",
+          "Auvergne-Rhône-Alpes",
+          "Isère",
+          "Grenoble"
+        ]
+      },
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.fr/details/5974795474?utm_medium=api&utm_source=9b72b105",
+      "latitude": 45.19428
+    },
+    {
+      "description": "Vous êtes passionné(e) par la mécanique industrielle et aimez les environnements concrets où chaque journée est différente ? Ce poste est pour vous! Vos responsabilités : Réaliser la maintenance curative et préventive de nos équipements de production Intervenir sur tous les aspects mécaniques : démontage, révision, remplacement et ajustement de pièces Fabriquer des structures mécano-soudées à partir de plans techniques Utiliser des techniques telles que le soudage (semi-auto, électrode), le tou…",
+      "location": {
+        "area": [
+          "France"
+        ],
+        "display_name": "France",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      },
+      "title": "Stage - Mécanicien industriel H/F",
+      "company": {
+        "display_name": "KONVERT INTERIM",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5974673367",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc0NjczMzY3In0.S8TNKlq4yTNTjLfHSd9744ZL4McheuzV10oC4lSmUrE",
+      "created": "2026-11-22T05:54:34Z",
+      "contract_type": "contract",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.fr/details/5974673367?utm_medium=api&utm_source=9b72b105"
+    },
+    {
+      "redirect_url": "https://www.adzuna.fr/details/5974356724?utm_medium=api&utm_source=9b72b105",
+      "latitude": 47.21442,
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": -1.63888,
+      "location": {
+        "area": [
+          "France",
+          "Pays de la Loire",
+          "Loire-Atlantique",
+          "Nantes",
+          "Saint-Herblain"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Saint-Herblain, Nantes"
+      },
+      "description": "Type de contrat Stage QUI SOMMES-NOUS SUEZ Recyclage & Valorisation des déchets propose des solutions de gestion et de valorisation matière, énergétique et biologique de tous types de déchets pour produire de nouvelles ressources. Les équipes de cette activité contribuent à la collecte, au tri, au démantèlement, au recyclage, à la valorisation et la commercialisation de nouvelles ressources et des services spécialisés sur sites et industriels. VOTRE MISSION Stage Ingénieur (Bac4 / Bac5) Optimis…",
+      "company": {
+        "display_name": "SUEZ",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5974356724",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "title": "Stage Ingénieur métiers de l'eau (H/F)",
+      "created": "2026-11-21T18:09:38Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc0MzU2NzI0In0.bKrONOf3W8mwUMHUBY39fMbgJm0RTZqrO04dLkQUbLE"
+    },
+    {
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.fr/details/5974354679?utm_medium=api&utm_source=9b72b105",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3NDM1NDY3OSIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.3T9IWnB2AitlcoyPe6x2KSey0VMCfQdKoP-I3D_cjcw",
+      "created": "2026-11-21T18:07:28Z",
+      "title": "CS27 - BAC3 à BAC5 - Stage Déploiement arche de contrôle qualité par IA (H/F)",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "company": {
+        "display_name": "Renault Group",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5974354679",
+      "description": "Company RENAULT ELECTRICITY Job Description Contexte et environnement de travail : Vous souhaitez participer au déploiement d’une solution innovante mettant l’intelligence artificielle au service de la qualité industrielle et de la satisfaction client ? Rejoignez Renault ElectriCity Douai , site industriel dédié à la production de véhicules électriques. Intégré(e) aux équipes Qualité et en collaboration avec les équipes de production, d’ingénierie et informatiques, vous participerez à la mise e…",
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "France",
+        "area": [
+          "France"
+        ]
+      }
+    },
+    {
+      "description": "Lieu : Orléans, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d’activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l’environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d’euros par an en Recherche & Développement, notamment dans des domaines clés de l’innovation tels …",
+      "longitude": 1.92073,
+      "location": {
+        "display_name": "Fleury-les-Aubrais, Orléans",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "France",
+          "Centre",
+          "Loiret",
+          "Orléans",
+          "Fleury-les-Aubrais"
+        ]
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc0MzUwNTc1In0.zLG9NYO7IuLuLRJIJactoEcl52lu-mb2TrH2n6_EEUg",
+      "created": "2026-11-21T18:03:28Z",
+      "title": "STAGE - Data Analyst F/H",
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "company": {
+        "display_name": "Thales",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5974350575",
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.fr/details/5974350575?utm_medium=api&utm_source=9b72b105",
+      "latitude": 47.93104
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "contract_time": "full_time",
+      "redirect_url": "https://www.adzuna.fr/details/5974345630?utm_medium=api&utm_source=9b72b105",
+      "latitude": 49.14777,
+      "description": "L'entreprise HYDAC est un groupe international à capitaux privés d'environ 12 000 salarié(e)s à travers le monde. Nous sommes spécialisés dans la fabrication et la vente de composants, de systèmes et de services. HYDAC France, filiale de 180 salarié(e)s, est un des leaders du marché dans le management des fluides et de l'électrohydraulique pour des activités aussi bien mobiles que stationnaires. Description du poste Dans un contexte de développement technologique et d'innovation continue de not…",
+      "location": {
+        "area": [
+          "France",
+          "Grand-Est",
+          "Moselle",
+          "Forbach",
+          "Behren-lès-Forbach"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Behren-lès-Forbach, Forbach"
+      },
+      "longitude": 6.89352,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc0MzQ1NjMwIn0.sR-ii8lQkGKl0G6YU6f-1ahQyguj19slUORud3kAGN0",
+      "created": "2026-11-21T17:56:14Z",
+      "title": "Stage Maintenance industriel F/H",
+      "category": {
+        "tag": "hr-jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Emplois RH et Recrutement"
+      },
+      "company": {
+        "display_name": "Hydac",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5974345630"
+    },
+    {
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.fr/details/5974345049?utm_medium=api&utm_source=9b72b105",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc0MzQ1MDQ5In0.n2ockssFKbx9S7ryIM5uTBd2byBvihQkGys0mEtrqC0",
+      "created": "2026-11-21T17:55:26Z",
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      },
+      "title": "Stage - Contrôleur de gestion industriel - H/F",
+      "company": {
+        "display_name": "Naval Group",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "id": "5974345049",
+      "description": "Informations générales Organisation NAVAL GROUP Acteur international du naval de défense, Naval Group est partenaire des États dans la maîtrise de leur souveraineté maritime. Grâce à des savoir-faire et des moyens industriels exceptionnels, il conçoit, réalise, intègre, maintient en service et modernise des sous-marins, des navires de surface et des drones ainsi que leurs systèmes, leurs armes et leurs équipements, jusqu'à la déconstruction. UN ENVIRONNEMENT DE TRAVAIL POSITIF Implantés sur 9 s…",
+      "location": {
+        "area": [
+          "France"
+        ],
+        "display_name": "France",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    },
+    {
+      "salary_is_predicted": "0",
+      "description": "Présentation de la société Le Groupe PIMENT et ses marques spécialisées, PIMENT, au savoir-faire reconnu dans l’aéronautique et OPTIMA, cabinet de recrutement multi-sectoriel, vous accompagnent tout au long de votre évolution professionnelle, en vous proposant des contrats en intérim, CDD, CDI et freelance dans de nombreux secteurs d’activité. Nous apportons une vision et des méthodes de recrutement centrées sur les qualités humaines. Pour cela, nous proposons à nos clients des solutions de rec…",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Groupe Piment"
+      },
+      "title": "CQPM - Inspecteur Qualité Aéronautique",
+      "salary_min": 13,
+      "salary_max": 13,
+      "redirect_url": "https://www.adzuna.fr/details/5974340110?utm_medium=api&utm_source=9b72b105",
+      "latitude": 43.61254,
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "longitude": 1.33264,
+      "location": {
+        "area": [
+          "France",
+          "Occitanie",
+          "Haute-Garonne",
+          "Toulouse",
+          "Toulouse 13e Canton"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Toulouse 13e Canton, Toulouse"
+      },
+      "created": "2026-11-21T17:50:56Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc0MzQwMTEwIn0.g9gQ4a9YcAJTBNXJsOKKtGOFlDgmFpjzOB6Qu9MmSCE",
+      "id": "5974340110",
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      }
+    },
+    {
+      "title": "Technicien maintenance (H/F)",
+      "company": {
+        "display_name": "HARRY HOPE",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "description": "Rattaché au Responsable Maintenance, vos missions sont les suivantes : Réaliser les interventions de maintenance préventive et curative sur l'ensemble des équipements de production. Diagnostiquer les pannes et assurer le dépannage en garantissant la continuité de la production. Participer à l'amélioration continue des installations (propositions d'amélioration, fiabilisation des équipements). Suivre et renseigner la GMAO (traçabilité des interventions, gestion des stocks de pièces). Collaborer …",
+      "salary_is_predicted": "0",
+      "category": {
+        "label": "Emplois Maintenance",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "maintenance-jobs"
+      },
+      "id": "5974096648",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc0MDk2NjQ4In0.tk4W1jXfuGyjMOHrpA3JRQx65Emj4bTCw77ifHO2qjU",
+      "created": "2026-11-21T14:13:40Z",
+      "longitude": 3.797883,
+      "location": {
+        "area": [
+          "France",
+          "Auvergne-Rhône-Alpes",
+          "Haute-Loire"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Haute-Loire, Auvergne-Rhône-Alpes"
+      },
+      "contract_time": "full_time",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.fr/details/5974096648?utm_medium=api&utm_source=9b72b105",
+      "latitude": 45.159913,
+      "salary_max": 40000,
+      "salary_min": 35000,
+      "contract_type": "permanent"
+    },
+    {
+      "contract_type": "contract",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "latitude": 47.409153,
+      "redirect_url": "https://www.adzuna.fr/details/5974043649?utm_medium=api&utm_source=9b72b105",
+      "description": "HIVE Engineering , c'est… Intégrer une société d'ingénierie multi-spécialisée, qui place l'humain et l'innovation au coeur de ses projets. Depuis 2017, nous construisons avec nos collaborateurs une aventure fondée sur : - L'entraide et l'esprit d'équipe - La bienveillance et la stabilité - L'épanouissement et la progression professionnelle Chez B-HIVE, nous croyons qu'un collaborateur épanoui est un collaborateur performant. C'est pourquoi nous offrons un environnement stimulant, des opportunit…",
+      "location": {
+        "area": [
+          "France",
+          "Pays de la Loire",
+          "Loire-Atlantique"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Loire-Atlantique, Pays de la Loire"
+      },
+      "longitude": -1.542898,
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "title": "Qualiticien(ne) Système / Indus F/H",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "B-HIVE"
+      },
+      "id": "5974043649",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTc0MDQzNjQ5In0.hEV_LomqI5RrhA2sagjqR5X2c9bhPvk0u7KxxakpqPc",
+      "created": "2026-11-21T13:44:46Z"
+    },
+    {
+      "created": "2026-11-21T08:41:21Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3MzgwOTczOCIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.TWh5KH3soKMngZ2zlyVIOL88EceYVoVm_vNPCiCkBi8",
+      "id": "5973809738",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "THALES"
+      },
+      "title": "STAGE - Designer Industriel – H/F",
+      "category": {
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "unknown"
+      },
+      "location": {
+        "area": [
+          "France",
+          "Ile-de-France",
+          "Yvelines",
+          "Versailles",
+          "Vélizy-Villacoublay"
+        ],
+        "display_name": "Vélizy-Villacoublay, Versailles",
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "longitude": 2.19001,
+      "description": "Lieu : Vélizy-Villacoublay, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d'activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l'environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d'euros par an en Recherche & Développement, notamment dans des domaines clés de l'inno…",
+      "latitude": 48.78283,
+      "redirect_url": "https://www.adzuna.fr/details/5973809738?utm_medium=api&utm_source=9b72b105",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "contract_type": "contract"
+    },
+    {
+      "id": "5973803202",
+      "company": {
+        "display_name": "THALES",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "title": "STAGE – Ingénieur digital et data industrielles - H/F",
+      "created": "2026-11-21T08:40:38Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3MzgwMzIwMiIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.VSeVBmoC63YPEtfx2eTMXvNqdZVihII2z54uvwZyx0I",
+      "longitude": 0.58179,
+      "location": {
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Châtellerault, Vienne",
+        "area": [
+          "France",
+          "Nouvelle-Aquitaine",
+          "Vienne",
+          "Châtellerault"
+        ]
+      },
+      "description": "Lieu : Chatellerault, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d'activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l'environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d'euros par an en Recherche & Développement, notamment dans des domaines clés de l'innovation…",
+      "latitude": 46.79077,
+      "redirect_url": "https://www.adzuna.fr/details/5973803202?utm_medium=api&utm_source=9b72b105",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "contract_type": "contract"
+    },
+    {
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.fr/details/5973802950?utm_medium=api&utm_source=9b72b105",
+      "latitude": 44.83737,
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "France",
+          "Nouvelle-Aquitaine",
+          "Gironde",
+          "Bordeaux"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Bordeaux, Gironde"
+      },
+      "longitude": -0.57614,
+      "description": "Lieu : Bordeaux, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d'activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l'environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d'euros par an en Recherche & Développement, notamment dans des domaines clés de l'innovation tels…",
+      "created": "2026-11-21T08:40:37Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibW5XOU53dm84UkcwY0pERWctNFRWQSIsImkiOiI1OTczODAyOTUwIn0.wPs1_fOl9C_0LVkeVuyZPix_ivUSP9hHv0EDECwob-g",
+      "id": "5973802950",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "THALES"
+      },
+      "title": "STAGE – Ingénieur système expert & IA pour la définition de stratégies de test industrielles – F/H",
+      "category": {
+        "tag": "unknown",
+        "label": "Unknown",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      }
+    },
+    {
+      "location": {
+        "display_name": "France",
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "area": [
+          "France"
+        ]
+      },
+      "description": "Lieu : 8 Rue de Versigny, 54600 Villers-lès-Nancy. Durée et/ou période du stage : 3 mois à partir de mars/avril 2027. En tant que stagiaire, vous serez intégré(e) au sein du Pôle Activités Opérationnelles de Villers-lès-Nancy composé de 20 personnes dont les missions sont d'assurer la maintenance préventive et corrective des automatismes, garantir le bon fonctionnement et réaliser les opérations de diagnostic. Vos missions seront de : * Découvrir et participer aux opérations de maintenance prév…",
+      "created": "2026-11-21T08:39:04Z",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3Mzc4NzUwNiIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.-6spMk22OSTajNROWZ-6SsmKyR88Kv3n5pkfbcAbN1o",
+      "id": "5973787506",
+      "company": {
+        "display_name": "RTE - Réseau de transport d'électricité",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown",
+        "tag": "unknown"
+      },
+      "title": "Stage - Technicien de Maintenance Automatismes Systèmes Industriels F/H",
+      "contract_type": "contract",
+      "redirect_url": "https://www.adzuna.fr/details/5973787506?utm_medium=api&utm_source=9b72b105",
+      "salary_is_predicted": "0",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "contract_type": "contract",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "latitude": 43.55444,
+      "redirect_url": "https://www.adzuna.fr/details/5973781254?utm_medium=api&utm_source=9b72b105",
+      "description": "Lieu : Cannes, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d'activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l'environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d'euros par an en Recherche & Développement, notamment dans des domaines clés de l'innovation tels q…",
+      "location": {
+        "area": [
+          "France",
+          "Provence-Alpes-Côte d'Azur",
+          "Alpes-Maritimes",
+          "Grasse",
+          "Cannes"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Cannes, Grasse"
+      },
+      "longitude": 6.98104,
+      "title": "Stage – Ingénieur Gestion et Mise à jour des Protocoles & Certifications – H/F",
+      "category": {
+        "tag": "unknown",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Unknown"
+      },
+      "id": "5973781254",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "THALES"
+      },
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTk3Mzc4MTI1NCIsInMiOiJtblc5Tnd2bzhSRzBjSkRFZy00VFZBIn0.curk6lQISWUFYyJTdmjukrNRNxeyUUZRtyeYncA_PQ8",
+      "created": "2026-11-21T08:38:29Z"
+    }
+  ]
+}
